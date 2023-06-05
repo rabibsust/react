@@ -6,7 +6,7 @@ class Clock extends React.Component {
     return (
       <div>
         <h1 className="heading">
-          <span>Hello {new Date().toLocaleTimeString(this.props.locale)}</span>
+          <span>Hello <span>{this.props.children}</span> {new Date().toLocaleTimeString(this.props.locale)}</span>
         </h1>
       </div>
     );

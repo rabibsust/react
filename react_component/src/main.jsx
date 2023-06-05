@@ -12,4 +12,4 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 //     );
 // }
 
-root.render(<Clock locale="en-US"/>);
+root.render(<Clock locale="en-US">Test children component</Clock>);
