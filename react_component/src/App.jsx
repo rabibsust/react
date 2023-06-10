@@ -1,9 +1,8 @@
+import Clock from "./components/Clock"
 
 function App() {
   return (
-    <h1>
-      Hello World
-    </h1>
+    <Clock locale="en-US"></Clock>  
   )
 }
 
